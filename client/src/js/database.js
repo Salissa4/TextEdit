@@ -25,7 +25,7 @@ export const putDb = async (content) => {
   const request = store.put({ jate: content });
   // Get confirmation of the request.
   const result = await request;
-    console.log('🚀 - data saved to the database', result);
+    console.log('🚀 - data saved to the database', result.value);
 };
 
 // add logic for a method that gets all the content from the database.. LOOK AT ACT 24 JS/DATABASE.JS
@@ -42,8 +42,8 @@ export const getDb = async () => {
   const request = store.getAll();
   // Get confirmation of the request.
   const result = await request;
-    console.log('🚀 - data saved to database', result)
-  return result
+    console.log('🚀 - data saved to database', result.value)
+  return result.value
 };
 
 initdb();
