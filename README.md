@@ -17,7 +17,7 @@ A text editor that runs in the browser, is a single-page app that meets PWA crit
 
 ## Usage
 
-View on [Heroku]() 
+View on [Heroku](https://calm-shelf-68858.herokuapp.com/) 
 
 ![JATE](./assets/demo.png)
 
