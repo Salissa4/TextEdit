@@ -7,7 +7,7 @@ A text editor that runs in the browser, is a single-page app that meets PWA crit
 ## Table of Contents
 
 - [Usage](#usage)
-- [AcceptanceCriteria](#acceptance-criteria)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Technologies](#technologies)
 - [Credits](#credits)
